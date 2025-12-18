@@ -1,0 +1,131 @@
+* RESET */
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+main {
+    margin-bottom: 250px;
+}
+
+/* NAVBAR */
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
+}
+
+#logo img {
+    width: 100px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    padding: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+#navbar li {
+    padding: 5px;
+}
+
+#navbar .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+    color: #999;
+}
+
+/* HOME */
+#title-container {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#title-container h1 {
+    font-size: 50px;
+}
+
+#title-container p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* POSTS */
+#posts-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts-box:first-child {
+    min-width: 100%;
+}
+
+.posts-box {
+    flex: 1 1 30%;
+    margin: 0 1% 30px;
+}
+
+.posts-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.posts-box .post-title {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.posts-box .post-title a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.posts-box .post-title a:hover {
+    color: #777;
+}
+
+.post-description {
+    color: #666;
+    font-size: 14px;
+}
+
+/* FOOTER */
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+/* PRIMEIRO POST - IMAGEM EM DESTAQUE */
+.posts-box:first-child img {
+    height: 1100px;       /* altura maior */
+    object-fit: cover;
+}
+
+
